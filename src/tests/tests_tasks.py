@@ -26,6 +26,6 @@ class TestsTask:
         test = Tasks()
 
         last_id = test.get_task_id()
-        test.deleting_a_task(last_id)
+        test.deleting_a_task(str(last_id))
 
         assert last_id not in test.read_data_json()
