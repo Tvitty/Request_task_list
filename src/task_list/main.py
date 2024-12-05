@@ -23,7 +23,7 @@ def main():
             case c.Name.task_edit:
                 task.task_editing(
                     id_task=input('Введите номер задачи: '),
-                    what_to_edit=input('Введите поле для редактирования (name, description, category, deadline, priority): '),
+                    edit_box=input('Введите поле для редактирования (название, описание, категория, срок выполнения, приоритет: '),
                     new_value=input('Введите новое значение: ')
                 )
             case c.Name.check_in:
